@@ -1,0 +1,103 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Krypton.Docking/65.22.6.152": {
+        "dependencies": {
+          "Krypton.Navigator": "65.22.6.152",
+          "Krypton.Toolkit": "65.22.6.152",
+          "Krypton.Workspace": "65.22.6.152"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Krypton.Docking.dll": {
+            "assemblyVersion": "65.22.6.152",
+            "fileVersion": "65.22.6.152"
+          }
+        }
+      },
+      "Krypton.Navigator/65.22.6.152": {
+        "dependencies": {
+          "Krypton.Toolkit": "65.22.6.152"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Krypton.Navigator.dll": {
+            "assemblyVersion": "65.22.6.152",
+            "fileVersion": "65.22.6.152"
+          }
+        }
+      },
+      "Krypton.Ribbon/65.22.6.152": {
+        "dependencies": {
+          "Krypton.Toolkit": "65.22.6.152"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Krypton.Ribbon.dll": {
+            "assemblyVersion": "65.22.6.152",
+            "fileVersion": "65.22.6.152"
+          }
+        }
+      },
+      "Krypton.Toolkit/65.22.6.152": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Krypton.Toolkit.dll": {
+            "assemblyVersion": "65.22.6.152",
+            "fileVersion": "65.22.6.152"
+          }
+        }
+      },
+      "Krypton.Workspace/65.22.6.152": {
+        "dependencies": {
+          "Krypton.Navigator": "65.22.6.152",
+          "Krypton.Toolkit": "65.22.6.152"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Krypton.Workspace.dll": {
+            "assemblyVersion": "65.22.6.152",
+            "fileVersion": "65.22.6.152"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Krypton.Docking/65.22.6.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w/ijILKLtvjHNhdm9xMLnuvyFv8lrvbmLXAruCM6bn/953Ho2QmDacgZ94ogXZR+qcXKnscIs5a1CvYhILSXhQ==",
+      "path": "krypton.docking/65.22.6.152",
+      "hashPath": "krypton.docking.65.22.6.152.nupkg.sha512"
+    },
+    "Krypton.Navigator/65.22.6.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8bWOY5fT8HbmzeOJ0OKgiSbMPNcnADXCdkA+y+KHnI/NgUH+0fPR+4Q5Hcr8aDBabN+B5k1Lof5j5qsAcc7cZg==",
+      "path": "krypton.navigator/65.22.6.152",
+      "hashPath": "krypton.navigator.65.22.6.152.nupkg.sha512"
+    },
+    "Krypton.Ribbon/65.22.6.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1JS/wPiBm4Z47nNvGW2hhza0q5pnENQDQKDspBwy+sbmRoP7VamK5/HVYPQ5xSea7TAbopHS+/s71KA6gatRQ==",
+      "path": "krypton.ribbon/65.22.6.152",
+      "hashPath": "krypton.ribbon.65.22.6.152.nupkg.sha512"
+    },
+    "Krypton.Toolkit/65.22.6.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-thgVK7gcT4iIflF9NiMbuinfC1XodKfgJ07pLEU4aPPtUaP1c30Fr46P+jTAu50oh9LDw9ZSKSbugYfFYUkjAg==",
+      "path": "krypton.toolkit/65.22.6.152",
+      "hashPath": "krypton.toolkit.65.22.6.152.nupkg.sha512"
+    },
+    "Krypton.Workspace/65.22.6.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KbgjqKrOc6z0omCYeXtnpAXSVaIL0XNoydRIGrXk7xjPTR9ixFogOxB3vPw8XGnF6aN1jwgoqBOn1pID/P6mmA==",
+      "path": "krypton.workspace/65.22.6.152",
+      "hashPath": "krypton.workspace.65.22.6.152.nupkg.sha512"
+    }
+  }
+}
