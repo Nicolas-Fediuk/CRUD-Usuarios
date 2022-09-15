@@ -57,9 +57,9 @@
             // 
             this.lblSubTitulo.Location = new System.Drawing.Point(32, 77);
             this.lblSubTitulo.Name = "lblSubTitulo";
-            this.lblSubTitulo.Size = new System.Drawing.Size(405, 24);
+            this.lblSubTitulo.Size = new System.Drawing.Size(151, 24);
             this.lblSubTitulo.TabIndex = 10;
-            this.lblSubTitulo.Values.Text = "Bienvenido a mi app para logearse y que por ahi funcione";
+            this.lblSubTitulo.Values.Text = "Bienvenido a mi app ";
             // 
             // txtCorreoLogin
             // 
