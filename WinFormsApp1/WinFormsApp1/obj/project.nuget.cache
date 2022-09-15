@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mUIBcV/TvrBbxxfBsFGj5CrCWjt/IDtcQP+pElHnb74w8GnHUyH+EZ52scPUH/80QER3OPPaA/O0ypKWHT6hqQ==",
+  "dgSpecHash": "Gx037TZjIxrvmdNSXoBQNgJQaNY1VsYbBDHkBqGNq2Pp4+Jg86wmpYudF3mbOrbec6u4gw4m+PPx8/YcxgU4+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\WinFormsApp1\\AppUsuario.PL.csproj",
+  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\WinFormsApp1\\AppUsuario.PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nfediuk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nfediuk\\.nuget\\packages\\krypton.docking\\65.22.6.152\\krypton.docking.65.22.6.152.nupkg.sha512",

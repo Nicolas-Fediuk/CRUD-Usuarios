@@ -38,23 +38,16 @@ namespace AppUsuario.PL.Views
             _txt.ConfigureControl(txtDniEdit);
 
             _lbl.lblTitulo(kryptonLabel2);
-            _lbl.lblTitulo(kryptonLabel3);
 
             _lbl.lblRegistro(kryptonLabel4);
             _lbl.lblRegistro(kryptonLabel5);
             _lbl.lblRegistro(kryptonLabel6);
             _lbl.lblRegistro(kryptonLabel7);
             _lbl.lblRegistro(kryptonLabel8);
-            _lbl.lblRegistro(txtNombre);
-            _lbl.lblRegistro(lblBajaUsuario);
             _lbl.lblRegistro(kryptonLabel10);
-
-            _lbl.lblBusqueDni(kryptonLabel1);
-            _lbl.lblBusqueDni(kryptonLabel9);
 
             _btn.ConfigureControl(btnEditar);
             _btn.ConfigureControl(btnBajaUsuario);
-
 
 
         }
@@ -62,8 +55,7 @@ namespace AppUsuario.PL.Views
         private void ControlUsuario_Load(object sender, EventArgs e)
         {
             cargarGvUsuario();
-            cargarDdlUsuario();
-            cargarCbBajaUsuario();
+            cargarTexbox();
             this.Shown += FocusDll;
         }
 
@@ -77,38 +69,9 @@ namespace AppUsuario.PL.Views
             gvUsuarios.DataSource = un.TablaUsuario();
         }
 
-        public void cargarDdlUsuario()
-        {
-            var Lst = un.DdlUsuario();
-            cbUsuario.DisplayMember = "DniUsu";
-            cbUsuario.ValueMember = "DniUsu";
-            cbUsuario.DataSource = Lst;
-        }
-
-        
-
-        private void cbUsuario_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            buscarNombreCompleto();
-            var dni = cbUsuario.SelectedValue.ToString();
-            txtDniEdit.Text = dni;
-            txtNombreEdit.Text = un.buscarNombre(dni);
-            txtApellidoEdit.Text = un.buscarApellido(dni);
-            txtContraseñaEdit.Text = un.buscarContraseña(dni);
-            txtCorreoEdit.Text = un.buscarCorreo(dni);
-            txtCelularEdit.Text = un.buscarCelular(dni);
-        }
-
-        public void buscarNombreCompleto()
-        {
-            var dni = cbUsuario.SelectedValue.ToString();
-            txtNombre.Text = un.buscarPorDni(dni);
-
-        }
-
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            var dni = cbUsuario.SelectedValue.ToString();
+            var dni = GetDni();
             us.Dni = txtDniEdit.Text;
             us.Nombre = txtNombreEdit.Text;
             us.Apellido = txtApellidoEdit.Text;
@@ -127,11 +90,9 @@ namespace AppUsuario.PL.Views
 
             cargarGvUsuario();
 
-            buscarNombreCompleto();
+            cargarTexbox();
 
             limpiarTxt();
-
-            cargarDdlUsuario();
 
         }
 
@@ -144,39 +105,42 @@ namespace AppUsuario.PL.Views
             txtCorreoEdit.Text = "";
         }
 
-        public void cargarCbBajaUsuario()
-        {
-            var Lst = un.DdlUsuario();
-            cbBajaUsuario.DisplayMember = "DniUsu";
-            cbBajaUsuario.ValueMember = "DniUsu";
-            cbBajaUsuario.DataSource = Lst;
-        }
-
-        
-        private void cbBajaUsuario_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var dni = cbBajaUsuario.SelectedValue.ToString();
-            lblBajaUsuario.Text = un.buscarPorDni(dni);
-        }
-
         private void btnBajaUsuario_Click(object sender, EventArgs e)
         {
             KryptonMessageBox.Show("Usuario eliminado", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            un.eliminarUsuario(cbBajaUsuario.SelectedValue.ToString());
+            string dni = GetDni();
+            un.eliminarUsuario(dni);
             cargarGvUsuario();
-            cargarDdlUsuario();
-            cargarCbBajaUsuario();
+            cargarTexbox();
         }
 
-        private void cbUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        private string GetDni()
         {
-            e.Handled = true;
+            try
+            {
+                return gvUsuarios.Rows[gvUsuarios.CurrentRow.Index].Cells[0].Value.ToString();
+            }
+            catch(Exception ex)
+            {
+                KryptonMessageBox.Show("Usuario eliminado: "+ex.Message, "Exito", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return null;
+            }
         }
 
-        private void cbBajaUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        private void gvUsuarios_Click(object sender, EventArgs e)
         {
-            e.Handled = true;
+            cargarTexbox();
         }
 
+        public void cargarTexbox()
+        {
+            var dni = GetDni();
+            txtDniEdit.Text = dni;
+            txtNombreEdit.Text = un.buscarNombre(dni);
+            txtApellidoEdit.Text = un.buscarApellido(dni);
+            txtContraseñaEdit.Text = un.buscarContraseña(dni);
+            txtCorreoEdit.Text = un.buscarCorreo(dni);
+            txtCelularEdit.Text = un.buscarCelular(dni);
+        }
     }
 }

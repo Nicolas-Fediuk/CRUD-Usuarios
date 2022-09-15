@@ -10,3 +10,15 @@ C:\Users\nfediuk\Desktop\pruebaKrypton\WinFormsApp1\Entidad\obj\Debug\net6.0\Ent
 C:\Users\nfediuk\Desktop\pruebaKrypton\WinFormsApp1\Entidad\obj\Debug\net6.0\refint\Entidad.dll
 C:\Users\nfediuk\Desktop\pruebaKrypton\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.pdb
 C:\Users\nfediuk\Desktop\pruebaKrypton\WinFormsApp1\Entidad\obj\Debug\net6.0\ref\Entidad.dll
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\bin\Debug\net6.0\Entidad.deps.json
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\bin\Debug\net6.0\Entidad.dll
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\bin\Debug\net6.0\Entidad.pdb
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.csproj.AssemblyReference.cache
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.AssemblyInfoInputs.cache
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.AssemblyInfo.cs
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.dll
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\refint\Entidad.dll
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\Entidad.pdb
+C:\Users\nfediuk\Desktop\CRUD-Usuarios\WinFormsApp1\Entidad\obj\Debug\net6.0\ref\Entidad.dll

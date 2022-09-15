@@ -1951,11 +1951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Negocio\\Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Negocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Negocio\\Negocio.csproj",
+      "projectPath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Negocio\\Negocio.csproj",
       "packagesPath": "C:\\Users\\nfediuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Negocio\\obj\\",
+      "outputPath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1976,11 +1976,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Datos\\Datos.csproj": {
-              "projectPath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Datos\\Datos.csproj"
+            "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Datos\\Datos.csproj"
             },
-            "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Entidad\\Entidad.csproj": {
-              "projectPath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Entidad\\Entidad.csproj"
+            "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Entidad\\Entidad.csproj"
             }
           }
         }

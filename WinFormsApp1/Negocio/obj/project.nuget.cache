@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oIapvluA5fskTDXzkawINboDQl2BOwGgcGdHIHvM0QM9B/e80wVcZ405COhDBRnD0pfY+FDclH3fVBlE4LaGxA==",
+  "dgSpecHash": "VYE5QeWsEDgjLxQcE93V92RFjKFgXmLAzWG2AXIkapa7nJ+zW93c3c0Qy1PMtZ3uj1+hIZuoiX6RtjHLFK8phw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Negocio\\Negocio.csproj",
+  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Negocio\\Negocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nfediuk\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nfediuk\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

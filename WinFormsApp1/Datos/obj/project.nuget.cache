@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZipLGNsRSIPYhC7hO4sw4vLfrmVJ/fRGLkRyGjII3vkEeCjtu/hXRzalWTX2N0mUwg6oKXkUzpjTmS7d2HsBfQ==",
+  "dgSpecHash": "ofQQmaUrXKUfQM1U+vTDNmN1W2ykjMf5npOTLE1khBZLbms+e4lzIIrpLYR3m2Q6EnoVnOCpXhQfuw0Q+70dkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nfediuk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nfediuk\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4ufdRhAxLfrahhNfBKd6A3zeUlibvpUfx1DsN93gENRyzD8gZT4/AVB1ykzVGKz2ub1A8219TO2acx2FP0XKw==",
+  "dgSpecHash": "ZUfoEd0mR9dLTrEg7/V/yLs+iEMBO2grlDenVG2SgDkpjT/LwvO4MPn8Z9qr51Xtu4Jy7C/LQI+tALHDrh/msQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\pruebaKrypton\\WinFormsApp1\\Entidad\\Entidad.csproj",
+  "projectFilePath": "C:\\Users\\nfediuk\\Desktop\\CRUD-Usuarios\\WinFormsApp1\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
