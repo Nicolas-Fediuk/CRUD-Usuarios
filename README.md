@@ -14,7 +14,7 @@ Proyecto realizado con el proposito adquirir conocimientos en:
 
 # 
 
-###Login
+### Login
 
 ![](https://github.com/Nicolas-Fediuk/CRUD-Usuarios-EF-DatabaseFirst/blob/master/ImgReadme/login.png?raw=true)
 Al ejecutar el programa cárga el form con el login donde el usuario debe ingresar sus credenciales 
@@ -24,7 +24,7 @@ Contraseña: **12345**
 
 En caso de ingresar un correo o contraseña que no este registrado en la base de datos aparecera un mensaje de error y cada textbox se va a colorear de rojo cuando el dato ingresado este mal y en verde cuando sea el correcto.
 
-###Registro
+### Registro
 
 ![](https://github.com/Nicolas-Fediuk/CRUD-Usuarios-EF-DatabaseFirst/blob/master/ImgReadme/registro.png?raw=true)
 
@@ -37,7 +37,7 @@ Restricciones:
 
 En caso de ingresar un dato invalido aparecera un mensaje de error y cada textbox se va a colorear de rojo cuando el dato ingresado este mal y en verde cuando sea el correcto.
 
-###Control de usuarios
+### Control de usuarios
 
 ![](https://github.com/Nicolas-Fediuk/CRUD-Usuarios-EF-DatabaseFirst/blob/master/ImgReadme/control.png?raw=true)
 
