@@ -56,10 +56,10 @@ namespace AppUsuario.PL.Views
         {
             cargarGvUsuario();
             cargarTexbox();
-            this.Shown += FocusDll;
+            this.Shown += FocusBtn;
         }
 
-        public void FocusDll(object sender, EventArgs e)
+        public void FocusBtn(object sender, EventArgs e)
         {
             this.btnEditar.Focus();
         }
@@ -90,9 +90,9 @@ namespace AppUsuario.PL.Views
 
             cargarGvUsuario();
 
-            cargarTexbox();
-
             limpiarTxt();
+
+            cargarTexbox();
 
         }
 
